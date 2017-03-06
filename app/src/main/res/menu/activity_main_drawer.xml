@@ -19,7 +19,7 @@
             <menu>
                 <item
                     android:id="@+id/nav_jobVacancy"
-                    android:icon="@drawable/ic_menu_job"
+                    android:icon="@drawable/ic_menu_jobvacancy"
                     android:title="Job Vacancy" />
                 <item
                     android:id="@+id/nav_internship"

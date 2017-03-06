@@ -10,13 +10,39 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"
+            android:label="Cyan Apps"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".OurAlumni"
+            android:label="Our Alumni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FindAlumni"
+            android:label="Find Alumni" />
+        <activity
+            android:name=".JobVacancy"
+            android:label="Job Vacancy"/>
+        <activity
+            android:name=".Internship"
+            android:label="Internship Program"/>
+        <activity
+            android:name=".Sponsorship"
+            android:label="Sponsorship Offer"/>
+        <activity
+            android:name=".Project"
+            android:label="Project"/>
+        <activity
+            android:name=".Faq"
+            android:label="FAQ" />
+        <activity
+            android:name=".ContactUs"
+            android:label="Contact Us"/>
     </application>
 
 </manifest>
